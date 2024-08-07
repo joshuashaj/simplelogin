@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 10px;
+}
+
+
+.login-box, .register-box {
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: #f8f8f8;
+}
+
+.register-box {
+    background-color: #007bff;
+    color: white;
+}
+
+h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #03000c;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid  #007bff;
+    box-shadow: inset 0 0 0 0  #007bff;
+    
+}
+
+.btn:hover {
+    color: rgb(252, 251, 251);
+    box-shadow: inset 0 -100px 0 0 #173bcc;
+}
+
+.btn:active {
+    transform: scale(0.9);
+  }
+
+.forgot {
+    margin-top: 50px; 
+    font-size: 12px;
+    align-content: center;
+}
+
+.forgot a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
